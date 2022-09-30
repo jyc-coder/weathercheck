@@ -26,7 +26,6 @@ const WeatherProvider = ({ children }) => {
         name,
         temp,
         humidity,
-        pressure,
         weatherState,
         speed,
         deg,
