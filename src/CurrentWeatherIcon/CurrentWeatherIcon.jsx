@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  WiDayThnderstorm,
+  WiDayThunderstorm,
   WiDaySnow,
   WiDayCloudy,
   WiDaySunny,
@@ -13,7 +13,7 @@ import {
 function CurrentWeatherIcon({ weatherState, ...props }) {
   switch (weatherState) {
     case 'ThunderStorm':
-      return <WiDayThnderstorm {...props} />;
+      return <WiDayThunderstorm {...props} />;
     case 'Snow':
       return <WiDaySnow {...props} />;
     case 'Clouds':

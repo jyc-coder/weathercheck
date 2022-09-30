@@ -35,6 +35,7 @@ const WeatherProvider = ({ children }) => {
         sunrise,
         temp_max,
         temp_min,
+        feels_like,
       });
     } catch (error) {
       console.error(error);
